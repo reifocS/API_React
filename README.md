@@ -12,7 +12,6 @@ npm install
 
 ## Starting the app
 1. Edit the api key in App.js
-```
 2. Start the app
 ```
 npm run start
