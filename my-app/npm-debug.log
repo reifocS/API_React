@@ -1,0 +1,345 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/var/host/media/removable/PATRIOT/JavaScript/my-app',
+5 verbose install   [ '@testing-library/jest-dom',
+5 verbose install     '@testing-library/react',
+5 verbose install     '@testing-library/user-event',
+5 verbose install     'react',
+5 verbose install     'react-dom',
+5 verbose install     'react-scripts' ] ]
+6 info preinstall my-app@0.1.0
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ '@testing-library/jest-dom@^4.2.4', null ]
+9 verbose cache add name=undefined spec="@testing-library/jest-dom@^4.2.4" args=["@testing-library/jest-dom@^4.2.4",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: '@testing-library/jest-dom@^4.2.4',
+10 verbose parsed url   path: '@testing-library/jest-dom@^4.2.4',
+10 verbose parsed url   href: '@testing-library/jest-dom@^4.2.4' }
+11 verbose cache add name="" spec="testing-library/jest-dom@^4.2.4" args=["","testing-library/jest-dom@^4.2.4"]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'testing-library/jest-dom@^4.2.4',
+12 verbose parsed url   path: 'testing-library/jest-dom@^4.2.4',
+12 verbose parsed url   href: 'testing-library/jest-dom@^4.2.4' }
+13 verbose cache add name="testing-library/jest-dom" spec="^4.2.4" args=["testing-library/jest-dom","^4.2.4"]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: '^4.2.4',
+14 verbose parsed url   path: '^4.2.4',
+14 verbose parsed url   href: '^4.2.4' }
+15 verbose addNamed [ 'testing-library/jest-dom', '^4.2.4' ]
+16 verbose addNamed [ null, '>=4.2.4-0 <5.0.0-0' ]
+17 verbose cache add [ '@testing-library/react@^9.5.0', null ]
+18 verbose cache add name=undefined spec="@testing-library/react@^9.5.0" args=["@testing-library/react@^9.5.0",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: '@testing-library/react@^9.5.0',
+19 verbose parsed url   path: '@testing-library/react@^9.5.0',
+19 verbose parsed url   href: '@testing-library/react@^9.5.0' }
+20 verbose cache add name="" spec="testing-library/react@^9.5.0" args=["","testing-library/react@^9.5.0"]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: 'testing-library/react@^9.5.0',
+21 verbose parsed url   path: 'testing-library/react@^9.5.0',
+21 verbose parsed url   href: 'testing-library/react@^9.5.0' }
+22 verbose cache add name="testing-library/react" spec="^9.5.0" args=["testing-library/react","^9.5.0"]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: '^9.5.0',
+23 verbose parsed url   path: '^9.5.0',
+23 verbose parsed url   href: '^9.5.0' }
+24 verbose addNamed [ 'testing-library/react', '^9.5.0' ]
+25 verbose addNamed [ null, '>=9.5.0-0 <10.0.0-0' ]
+26 verbose cache add [ 'react-dom@^16.13.0', null ]
+27 verbose cache add name=undefined spec="react-dom@^16.13.0" args=["react-dom@^16.13.0",null]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: 'react-dom@^16.13.0',
+28 verbose parsed url   path: 'react-dom@^16.13.0',
+28 verbose parsed url   href: 'react-dom@^16.13.0' }
+29 verbose cache add name="react-dom" spec="^16.13.0" args=["react-dom","^16.13.0"]
+30 verbose parsed url { protocol: null,
+30 verbose parsed url   slashes: null,
+30 verbose parsed url   auth: null,
+30 verbose parsed url   host: null,
+30 verbose parsed url   port: null,
+30 verbose parsed url   hostname: null,
+30 verbose parsed url   hash: null,
+30 verbose parsed url   search: null,
+30 verbose parsed url   query: null,
+30 verbose parsed url   pathname: '^16.13.0',
+30 verbose parsed url   path: '^16.13.0',
+30 verbose parsed url   href: '^16.13.0' }
+31 verbose addNamed [ 'react-dom', '^16.13.0' ]
+32 verbose addNamed [ null, '>=16.13.0-0 <17.0.0-0' ]
+33 silly lockFile e1609216-react-dom-16-13-0 react-dom@^16.13.0
+34 verbose lock react-dom@^16.13.0 /home/vincent/.npm/e1609216-react-dom-16-13-0.lock
+35 verbose cache add [ '@testing-library/user-event@^7.2.1', null ]
+36 verbose cache add name=undefined spec="@testing-library/user-event@^7.2.1" args=["@testing-library/user-event@^7.2.1",null]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: '@testing-library/user-event@^7.2.1',
+37 verbose parsed url   path: '@testing-library/user-event@^7.2.1',
+37 verbose parsed url   href: '@testing-library/user-event@^7.2.1' }
+38 verbose cache add name="" spec="testing-library/user-event@^7.2.1" args=["","testing-library/user-event@^7.2.1"]
+39 verbose parsed url { protocol: null,
+39 verbose parsed url   slashes: null,
+39 verbose parsed url   auth: null,
+39 verbose parsed url   host: null,
+39 verbose parsed url   port: null,
+39 verbose parsed url   hostname: null,
+39 verbose parsed url   hash: null,
+39 verbose parsed url   search: null,
+39 verbose parsed url   query: null,
+39 verbose parsed url   pathname: 'testing-library/user-event@^7.2.1',
+39 verbose parsed url   path: 'testing-library/user-event@^7.2.1',
+39 verbose parsed url   href: 'testing-library/user-event@^7.2.1' }
+40 verbose cache add name="testing-library/user-event" spec="^7.2.1" args=["testing-library/user-event","^7.2.1"]
+41 verbose parsed url { protocol: null,
+41 verbose parsed url   slashes: null,
+41 verbose parsed url   auth: null,
+41 verbose parsed url   host: null,
+41 verbose parsed url   port: null,
+41 verbose parsed url   hostname: null,
+41 verbose parsed url   hash: null,
+41 verbose parsed url   search: null,
+41 verbose parsed url   query: null,
+41 verbose parsed url   pathname: '^7.2.1',
+41 verbose parsed url   path: '^7.2.1',
+41 verbose parsed url   href: '^7.2.1' }
+42 verbose addNamed [ 'testing-library/user-event', '^7.2.1' ]
+43 verbose addNamed [ null, '>=7.2.1-0 <8.0.0-0' ]
+44 silly lockFile d09394df-testing-library-user-event-7-2-1 testing-library/user-event@^7.2.1
+45 verbose lock testing-library/user-event@^7.2.1 /home/vincent/.npm/d09394df-testing-library-user-event-7-2-1.lock
+46 verbose cache add [ 'react@^16.13.0', null ]
+47 verbose cache add name=undefined spec="react@^16.13.0" args=["react@^16.13.0",null]
+48 verbose parsed url { protocol: null,
+48 verbose parsed url   slashes: null,
+48 verbose parsed url   auth: null,
+48 verbose parsed url   host: null,
+48 verbose parsed url   port: null,
+48 verbose parsed url   hostname: null,
+48 verbose parsed url   hash: null,
+48 verbose parsed url   search: null,
+48 verbose parsed url   query: null,
+48 verbose parsed url   pathname: 'react@^16.13.0',
+48 verbose parsed url   path: 'react@^16.13.0',
+48 verbose parsed url   href: 'react@^16.13.0' }
+49 verbose cache add name="react" spec="^16.13.0" args=["react","^16.13.0"]
+50 verbose parsed url { protocol: null,
+50 verbose parsed url   slashes: null,
+50 verbose parsed url   auth: null,
+50 verbose parsed url   host: null,
+50 verbose parsed url   port: null,
+50 verbose parsed url   hostname: null,
+50 verbose parsed url   hash: null,
+50 verbose parsed url   search: null,
+50 verbose parsed url   query: null,
+50 verbose parsed url   pathname: '^16.13.0',
+50 verbose parsed url   path: '^16.13.0',
+50 verbose parsed url   href: '^16.13.0' }
+51 verbose addNamed [ 'react', '^16.13.0' ]
+52 verbose addNamed [ null, '>=16.13.0-0 <17.0.0-0' ]
+53 silly lockFile f18e1c34-react-16-13-0 react@^16.13.0
+54 verbose lock react@^16.13.0 /home/vincent/.npm/f18e1c34-react-16-13-0.lock
+55 verbose cache add [ 'react-scripts@3.4.0', null ]
+56 verbose cache add name=undefined spec="react-scripts@3.4.0" args=["react-scripts@3.4.0",null]
+57 verbose parsed url { protocol: null,
+57 verbose parsed url   slashes: null,
+57 verbose parsed url   auth: null,
+57 verbose parsed url   host: null,
+57 verbose parsed url   port: null,
+57 verbose parsed url   hostname: null,
+57 verbose parsed url   hash: null,
+57 verbose parsed url   search: null,
+57 verbose parsed url   query: null,
+57 verbose parsed url   pathname: 'react-scripts@3.4.0',
+57 verbose parsed url   path: 'react-scripts@3.4.0',
+57 verbose parsed url   href: 'react-scripts@3.4.0' }
+58 verbose cache add name="react-scripts" spec="3.4.0" args=["react-scripts","3.4.0"]
+59 verbose parsed url { protocol: null,
+59 verbose parsed url   slashes: null,
+59 verbose parsed url   auth: null,
+59 verbose parsed url   host: null,
+59 verbose parsed url   port: null,
+59 verbose parsed url   hostname: null,
+59 verbose parsed url   hash: null,
+59 verbose parsed url   search: null,
+59 verbose parsed url   query: null,
+59 verbose parsed url   pathname: '3.4.0',
+59 verbose parsed url   path: '3.4.0',
+59 verbose parsed url   href: '3.4.0' }
+60 verbose addNamed [ 'react-scripts', '3.4.0' ]
+61 verbose addNamed [ '3.4.0', '3.4.0' ]
+62 silly lockFile a0c688cb-react-scripts-3-4-0 react-scripts@3.4.0
+63 verbose lock react-scripts@3.4.0 /home/vincent/.npm/a0c688cb-react-scripts-3-4-0.lock
+64 silly lockFile 32657dcf-testing-library-react-9-5-0 testing-library/react@^9.5.0
+65 verbose lock testing-library/react@^9.5.0 /home/vincent/.npm/32657dcf-testing-library-react-9-5-0.lock
+66 silly addNameRange { name: 'react-dom',
+66 silly addNameRange   range: '>=16.13.0-0 <17.0.0-0',
+66 silly addNameRange   hasData: false }
+67 silly addNameRange { name: 'testing-library/user-event',
+67 silly addNameRange   range: '>=7.2.1-0 <8.0.0-0',
+67 silly addNameRange   hasData: false }
+68 silly addNameRange { name: 'react', range: '>=16.13.0-0 <17.0.0-0', hasData: false }
+69 verbose url raw react-dom
+70 verbose url resolving [ 'https://registry.npmjs.org/', './react-dom' ]
+71 verbose url resolved https://registry.npmjs.org/react-dom
+72 info trying registry request attempt 1 at 21:47:54
+73 http GET https://registry.npmjs.org/react-dom
+74 verbose url raw testing-library/user-event
+75 verbose url resolving [ 'https://registry.npmjs.org/',
+75 verbose url resolving   './testing-library/user-event' ]
+76 verbose url resolved https://registry.npmjs.org/testing-library/user-event
+77 info trying registry request attempt 1 at 21:47:54
+78 http GET https://registry.npmjs.org/testing-library/user-event
+79 verbose url raw react
+80 verbose url resolving [ 'https://registry.npmjs.org/', './react' ]
+81 verbose url resolved https://registry.npmjs.org/react
+82 info trying registry request attempt 1 at 21:47:54
+83 http GET https://registry.npmjs.org/react
+84 verbose url raw react-scripts/3.4.0
+85 verbose url resolving [ 'https://registry.npmjs.org/', './react-scripts/3.4.0' ]
+86 verbose url resolved https://registry.npmjs.org/react-scripts/3.4.0
+87 info trying registry request attempt 1 at 21:47:54
+88 http GET https://registry.npmjs.org/react-scripts/3.4.0
+89 silly addNameRange { name: 'testing-library/react',
+89 silly addNameRange   range: '>=9.5.0-0 <10.0.0-0',
+89 silly addNameRange   hasData: false }
+90 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+91 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+92 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+93 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+94 silly lockFile deda2443-testing-library-jest-dom-4-2-4 testing-library/jest-dom@^4.2.4
+95 verbose lock testing-library/jest-dom@^4.2.4 /home/vincent/.npm/deda2443-testing-library-jest-dom-4-2-4.lock
+96 verbose url raw testing-library/react
+97 verbose url resolving [ 'https://registry.npmjs.org/', './testing-library/react' ]
+98 verbose url resolved https://registry.npmjs.org/testing-library/react
+99 info trying registry request attempt 1 at 21:47:54
+100 http GET https://registry.npmjs.org/testing-library/react
+101 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+102 silly addNameRange { name: 'testing-library/jest-dom',
+102 silly addNameRange   range: '>=4.2.4-0 <5.0.0-0',
+102 silly addNameRange   hasData: false }
+103 verbose url raw testing-library/jest-dom
+104 verbose url resolving [ 'https://registry.npmjs.org/', './testing-library/jest-dom' ]
+105 verbose url resolved https://registry.npmjs.org/testing-library/jest-dom
+106 info trying registry request attempt 1 at 21:47:54
+107 http GET https://registry.npmjs.org/testing-library/jest-dom
+108 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+109 info trying registry request attempt 2 at 21:48:04
+110 http GET https://registry.npmjs.org/react-dom
+111 info trying registry request attempt 2 at 21:48:04
+112 http GET https://registry.npmjs.org/testing-library/user-event
+113 info trying registry request attempt 2 at 21:48:04
+114 http GET https://registry.npmjs.org/react
+115 info trying registry request attempt 2 at 21:48:04
+116 http GET https://registry.npmjs.org/react-scripts/3.4.0
+117 info trying registry request attempt 2 at 21:48:04
+118 http GET https://registry.npmjs.org/testing-library/react
+119 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+120 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+121 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+122 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+123 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+124 info trying registry request attempt 2 at 21:48:04
+125 http GET https://registry.npmjs.org/testing-library/jest-dom
+126 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+127 info trying registry request attempt 3 at 21:49:04
+128 http GET https://registry.npmjs.org/react-dom
+129 info trying registry request attempt 3 at 21:49:04
+130 http GET https://registry.npmjs.org/testing-library/user-event
+131 info trying registry request attempt 3 at 21:49:04
+132 http GET https://registry.npmjs.org/react
+133 info trying registry request attempt 3 at 21:49:04
+134 http GET https://registry.npmjs.org/react-scripts/3.4.0
+135 info trying registry request attempt 3 at 21:49:04
+136 http GET https://registry.npmjs.org/testing-library/react
+137 info trying registry request attempt 3 at 21:49:04
+138 http GET https://registry.npmjs.org/testing-library/jest-dom
+139 silly lockFile e1609216-react-dom-16-13-0 react-dom@^16.13.0
+140 silly lockFile e1609216-react-dom-16-13-0 react-dom@^16.13.0
+141 silly lockFile d09394df-testing-library-user-event-7-2-1 testing-library/user-event@^7.2.1
+142 silly lockFile d09394df-testing-library-user-event-7-2-1 testing-library/user-event@^7.2.1
+143 silly lockFile f18e1c34-react-16-13-0 react@^16.13.0
+144 silly lockFile f18e1c34-react-16-13-0 react@^16.13.0
+145 silly lockFile a0c688cb-react-scripts-3-4-0 react-scripts@3.4.0
+146 silly lockFile a0c688cb-react-scripts-3-4-0 react-scripts@3.4.0
+147 silly lockFile 32657dcf-testing-library-react-9-5-0 testing-library/react@^9.5.0
+148 silly lockFile 32657dcf-testing-library-react-9-5-0 testing-library/react@^9.5.0
+149 error network getaddrinfo ENOTFOUND
+149 error network This is most likely not a problem with npm itself
+149 error network and is related to network connectivity.
+149 error network In most cases you are behind a proxy or have bad network settings.
+149 error network
+149 error network If you are behind a proxy, please make sure that the
+149 error network 'proxy' config is set properly.  See: 'npm help config'
+150 error System Linux 3.18.0-19838-gc647e70c954a
+151 error command "/usr/bin/nodejs" "/usr/bin/npm" "install"
+152 error cwd /var/host/media/removable/PATRIOT/JavaScript/my-app
+153 error node -v v0.10.25
+154 error npm -v 1.3.10
+155 error syscall getaddrinfo
+156 error code ENOTFOUND
+157 error errno ENOTFOUND
+158 verbose exit [ 1, true ]
